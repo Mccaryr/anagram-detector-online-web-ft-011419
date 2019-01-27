@@ -12,6 +12,6 @@ class Anagram
   end
 
     def is_anagram?(anagram)
-      word.chars.sort == @anagram.chars.sort
+      anagram.chars.sort == @word.chars.sort
     end
 end
