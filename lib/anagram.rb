@@ -1,5 +1,5 @@
 class Anagram
-  attr_accessor :anagram
+  # attr_accessor :anagram
 
   def initialization(anagram)
     @anagram = anagram
